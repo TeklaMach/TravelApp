@@ -14,6 +14,7 @@ struct ContentView: View {
                 NavigationLink(destination: DestinationDetailScreen(destination: destination)) {
                     Text(destination.name)
                 }
+                
             }
             .navigationTitle("Travel Destinations")
             .navigationBarTitleDisplayMode(.automatic)

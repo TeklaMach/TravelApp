@@ -19,6 +19,9 @@ struct TipsScreen: View {
             NavigationLink(destination: ContentView()) {
                 Text("Go to Main Screen")
             }
+            NavigationLink(destination: TravelTipsScreen(travelTips: travelTips)) {
+                Text("Travel Tips")
+            }
         }
         .padding()
         .navigationTitle("Travel Tips")
